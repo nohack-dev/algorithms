@@ -40,4 +40,4 @@
 
 ## 📌 Copyrights
 
-© 2022. [Lucid](mailto:jihun@lucid-dream.net) all rights reserved.
+© 2022. [NoHack](mailto:nohack.dev@gmail.com) all rights reserved.
