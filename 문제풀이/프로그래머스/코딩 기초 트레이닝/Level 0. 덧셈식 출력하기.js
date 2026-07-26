@@ -9,6 +9,8 @@ let input = [];
 rl.on('line', function (line) {
   input = line.split(' ');
 }).on('close', function () {
-  console.log(`a = ${input[0]}`);
-  console.log(`b = ${input[1]}`);
+  const num1 = Number(input[0]);
+  const num2 = Number(input[1]);
+
+  console.log(`${num1} + ${num2} = ${num1 + num2}`);
 });

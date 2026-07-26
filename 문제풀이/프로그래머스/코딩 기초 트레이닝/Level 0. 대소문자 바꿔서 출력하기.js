@@ -7,8 +7,16 @@ const rl = readline.createInterface({
 let input = [];
 
 rl.on('line', function (line) {
-  input = line.split(' ');
+  input = [line];
 }).on('close', function () {
-  console.log(`a = ${input[0]}`);
-  console.log(`b = ${input[1]}`);
+  str = input[0];
+
+  let res = '';
+
+  for (const s of str) {
+    if ('a' <= s && s <= 'z') res += s.toUpperCase();
+    else res += s.toLowerCase();
+  }
+
+  console.log(res);
 });

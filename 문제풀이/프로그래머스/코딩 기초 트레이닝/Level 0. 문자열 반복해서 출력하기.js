@@ -9,6 +9,16 @@ let input = [];
 rl.on('line', function (line) {
   input = line.split(' ');
 }).on('close', function () {
-  console.log(`a = ${input[0]}`);
-  console.log(`b = ${input[1]}`);
+  str = input[0];
+  n = Number(input[1]);
+
+  // 문자열 메서드 중 repeat를 사용해도 된다.
+  // console.log(str.repeat(n));
+  let res = '';
+
+  while (n--) {
+    res += str;
+  }
+
+  console.log(res);
 });
