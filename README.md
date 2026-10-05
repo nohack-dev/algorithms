@@ -40,4 +40,4 @@
 
 ## 📌 Copyrights
 
-© 2022. [NoHack](mailto:nohack.dev@gmail.com) all rights reserved.
+© 2026. [NoHack](mailto:nohack.dev@gmail.com) all rights reserved.
